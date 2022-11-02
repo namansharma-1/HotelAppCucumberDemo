@@ -46,6 +46,7 @@ public class Test_Steps {
 //		driver.findElement(By.name("password")).clear();
 //		driver.findElement(By.name("password")).sendKeys("vasu1234");
 		lg.Enter_passWord("vasu1234");
+		System.out.println("USER ENTER THE PASSWORD");
 	}
 
 	@When("User clicks on Login button")
