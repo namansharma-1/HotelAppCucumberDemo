@@ -137,7 +137,7 @@ public class Test_Steps {
 	    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
 	    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
 	    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-	    //
+	    
 	    // For other transformations you can register a DataTableType.
 		List<Map<String,String>> data = dataTable.asMaps(String.class,String.class);
 		for(Map<String,String> data1:data) {
