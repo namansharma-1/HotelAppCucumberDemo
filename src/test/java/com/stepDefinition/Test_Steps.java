@@ -38,6 +38,7 @@ public class Test_Steps {
 //		driver.findElement(By.id("username")).sendKeys("vasuvespag");
 		
 		lg.Enter_username("vasuvespag");
+		System.out.println("USER ENTER THE USRER NAME !");
 	}
 
 	@When("User enters Password")
