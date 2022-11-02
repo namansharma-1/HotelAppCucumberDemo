@@ -147,6 +147,7 @@ public class Test_Steps {
 			String password=data1.get("password");
 			driver.findElement(By.name("password")).clear();
 			driver.findElement(By.name("password")).sendKeys(password);
+			
 		}
 		
 		
